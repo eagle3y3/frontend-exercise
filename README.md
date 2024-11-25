@@ -65,6 +65,12 @@ Pokemon is a visual game. I would suggest adding a sprite for each pokemon to th
 
 Making the app more a11y accessible. I included some standards (responsive, can be zoomed in 200%, some aria labels) but definitely can improve with given time.
 
+From a security standpoint set up api limits and rate limiting. This would prevent users from making too many requests to the API and would prevent the app from being used to launch a DDoS attack.
+
+SEO Peformance enhancements with meta tags.
+
+Unit testing and e2e testing. I would suggest adding unit tests and e2e tests to the app to ensure that it functions correctly and to catch any regressions that may occur in the future. This would make the app more maintainable and would allow us to catch errors early in the development process.
+
 - What was the most challenging aspect of this work for you (if at all)?
 
 The nerd in me wanted to go all out and include all kinds of loading animations, libraries, images, etc. Cause Pokemon is a very fun visual brand. I remembered to just stay in scope. On the small technical difficulty side, I thought I had a bug with the evolution chain id. I thought the id was located in the fetchPokemonDetailsByName endpoint but it was located in the fetchSpeciesByName endpoint. I fixed the bug and was able to extract the chain with a small recursive soltion.
