@@ -32,10 +32,10 @@ body {
   flex: 1;
   border: #ff0000 solid 2px;
   border-radius: 5px;
-  max-height: calc(10 * 2.8rem);
+  max-height: calc(11 * 2.8rem);
   overflow-y: scroll;
   scrollbar-width: none;
-  width: 14.5rem; /* Fixed width */
+  width: 14.5rem;
   box-sizing: border-box;
   background-color: white;
 }
@@ -48,7 +48,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.5rem;
+  padding: 0.75rem 1.5rem;
   border-bottom: 1px solid black;
   font-size: 1rem;
   width: 100%;
@@ -64,7 +64,7 @@ body {
   border: 2px solid black;
   padding: 1rem;
   border-radius: 5px;
-  width: 300px; /* Fixed width */
+  width: 300px;
   height: 425px;
   box-sizing: border-box;
   font-size: 1rem;
@@ -181,13 +181,13 @@ body {
 
   .pokedex__search-results {
     order: 1;
-    width: 300px; /* Maintain fixed width */
+    width: 300px;
     max-height: 50vh;
   }
 
   .pokedex__details {
     order: 2;
-    width: 300px; /* Maintain fixed width */
+    width: 300px;
     max-height: 50vh;
   }
 }
